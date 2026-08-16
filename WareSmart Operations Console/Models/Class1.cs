@@ -1,0 +1,25 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace WareSmart_Operations_Console
+{
+    public class Product
+    {
+            public int ProductID { get; set; }
+            public string Name { get; set; }
+            public int Quantity { get; set; }
+            public double Weight { get; set; }
+
+            public Product(int productID, string name, int quantity, double weight)
+            {
+                ProductID = productID;
+                Name = name;
+                Quantity = quantity;
+                Weight = weight;
+            }
+        
+    }
+}
